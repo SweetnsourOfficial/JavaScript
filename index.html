@@ -1,0 +1,85 @@
+<html>
+  <title>ERROR404</title>
+    <!-- used for dynamic page -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+  #grad1 {
+  
+  background-image: linear-gradient(to top left, red, white);
+}
+
+  h3 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  div {color:white;text-align:center;position: absolute; top: 40%; bottom: 60%; width: 100%;}
+  
+  #my-form {
+  display: 90px;
+  
+  }
+  
+  #my-form input,
+  #my-form button {
+  border-radius: 10px;
+  border: 1px solid grey;
+  padding: 2px;
+  }
+  
+  #my-form input {
+  flex-grow: 2;
+  border-right-width: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  }
+  
+  #my-form button {
+  background: teal;
+  color: white;
+  border-left-width: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  }
+  :focus {
+  outline: 0;
+  outline-color: transparent;
+  outline-style: none;
+  }</style>
+  <script>function submitMe(id) {
+  var value = document.getElementById(id).value;
+  alert ("Hi! "+value+" How are you?");
+}
+  
+</script>
+  <body id="grad1">
+    
+  <div>
+    <h3>What is your name?</h3>
+    <br>
+   <form id="my-form">
+     <input type="text" id="test"  value="" />
+     <button type="submit" onclick="submitMe('test')" id="testButton">Submit</button>
+   </form>
+    
+  </div>
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+  </body>
+<footer><a href="https://github.com/SweetnsourOfficial">Credits</a></footer>
+</html>
